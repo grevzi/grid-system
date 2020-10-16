@@ -1,0 +1,17 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [],
+  "author": "Roman Loiko <grevzi@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.27.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
